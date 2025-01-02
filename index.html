@@ -1,11 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Portfolio</title>
 </head>
+
 <body>
-    
+<div class="container">
+    <header>
+        <h1>DevPortfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about"><i class="fas fa-user"></i> About Me</a></li>
+                <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+        <a href="resume.pdf" download class="download-btn">
+            <i class="fas fa-download"></i> Download CV
+        </a>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hi, I'm Alex, a passionate frontend developer with a love for creating intuitive and dynamic user
+                experiences. With a
+                strong foundation in HTML, CSS, and JavaScript, I thrive in bringing designs to life and ensuring
+                seamless interactions.
+                My journey in web development has been fueled by curiosity and a desire to continuously learn and adapt
+                to the
+                ever-evolving tech landscape. I am excited to leverage my skills to create engaging and innovative
+                digital experiences.
+            </p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <article>
+                <h3>Responsive Design</h3>
+                <p>
+                    04 Oct 2023 - Developed a responsive web design using HTML, CSS, and JavaScript.
+                </p>
+                <p>
+                    <strong>Technologies:</strong> HTML, CSS, JavaScript
+                </p>
+                <button>view Project</button>
+            </article>
+            <article>
+                <h3>E-commerce Platform</h3>
+                <p>
+                    15 Sep 2023 - Built a full-featured E-commerce platform with user authentication, product management,
+                    and payment integration.
+                </p>
+                <p>
+                    <strong>Technologies:</strong> HTML, CSS, JavaScript, Node.js, MongoDB
+                </p>
+                <button>View Project</button>
+                <article>
+                    <h3>Social Media App</h3>
+                    <p>
+                        20 Aug 2023 - Created a social media application with real-time chat, post sharing, and
+                        notifications.
+                    </p>
+                    <p>
+                        <strong>Technologies:</strong> HTML, CSS, JavaScript, React, Node.js, Express, MongoDB
+                    </p>
+                    <button>View Project</button>
+                </article>
+            </article>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <h3>Frontend skills</h3>
+                <li><i class="fab fa-html5"></i> HTML</li>
+                <li><i class="fab fa-css3-alt"></i> CSS</li>
+                <li><i class="fab fa-js"></i> JavaScript</li>
+                <li><i class="fab fa-react"></i> React</li>
+                <li><i class="fab fa-react"></i> Next.js</li>
+            </ul>
+            <ul>
+                <h3>Backend skills</h3>
+                <li><i class="fab fa-node-js"></i> Node.js</li>
+                <li><i class="fas fa-server"></i> Express</li>
+                <li><i class="fas fa-database"></i> MongoDB</li>
+                <li><i class="fas fa-database"></i> SQL</li>
+                <li><i class="fas fa-network-wired"></i> RESTful APIs</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <h2>Say hello and let's work together !</h2>
+        <form id="contact">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Message" required></textarea>
+            </div>
+
+            <button>Send</button>
+        </form>
+        <div class="social-media"></div>
+        <a href="https://www.linkedin.com/in/alex" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/alex" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://twitter.com/alex" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2025</p>
+    </footer>
+</div>
 </body>
+
 </html>
