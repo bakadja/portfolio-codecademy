@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Portfolio</title>
 </head>
 
 <body>
 <div class="container">
     <header>
-        <h1>DevPortfolio</h1>
+        <h1 class="logo">
+            <img src="./images/logo.svg" alt="logo" >DevPortfolio
+        </h1>
         <nav>
             <ul>
                 <li><a href="#about"><i class="fas fa-user"></i> About Me</a></li>
@@ -27,17 +30,35 @@
     </header>
     <main>
         <section id="about">
-            <h2>About Me</h2>
-            <p>
-                Hi, I'm Alex, a passionate frontend developer with a love for creating intuitive and dynamic user
-                experiences. With a
-                strong foundation in HTML, CSS, and JavaScript, I thrive in bringing designs to life and ensuring
-                seamless interactions.
-                My journey in web development has been fueled by curiosity and a desire to continuously learn and adapt
-                to the
-                ever-evolving tech landscape. I am excited to leverage my skills to create engaging and innovative
-                digital experiences.
-            </p>
+            <div>
+                <h2>About Me</h2>
+                <p>
+                    Hi, I'm Alex, a passionate frontend developer with a love for creating intuitive and dynamic user
+                    experiences. With a
+                    strong foundation in HTML, CSS, and JavaScript, I thrive in bringing designs to life and ensuring
+                    seamless interactions.
+                    My journey in web development has been fueled by curiosity and a desire to continuously learn and adapt
+                    to the
+                    ever-evolving tech landscape. I am excited to leverage my skills to create engaging and innovative
+                    digital experiences.
+                </p>
+                <p>
+                    Over the years, I have worked on various projects ranging from small business websites to large-scale
+                    web applications. My expertise includes responsive design, performance optimization, and accessibility
+                    best practices. I believe in writing clean, maintainable code and collaborating effectively with
+                    cross-functional teams to deliver high-quality products.
+                </p>
+                <p>
+                    When I'm not coding, you can find me exploring new technologies, contributing to open-source projects,
+                    or sharing my knowledge through blogging and mentoring. I am always eager to take on new challenges and
+                    push the boundaries of what's possible on the web.
+                </p>
+            </div>
+            <picture>
+                <source srcset="./images/profil-mobile.png" media="(max-width: 600px)" width="247">
+                <source srcset="./images/profil-tablette.png" media="(max-width: 1024px)" width="309">
+                <img src="./images/about.png" alt="profile" class="profile-img" width="412">
+            </picture>
         </section>
         <section id="projects">
             <h2>Projects</h2>
@@ -112,12 +133,12 @@
 
             <button>Send</button>
         </form>
-        <div class="social-media"></div>
-        <a href="https://www.linkedin.com/in/alex" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/alex" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://twitter.com/alex" target="_blank"><i class="fab fa-twitter"></i></a>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/alex" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/alex" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/alex" target="_blank"><i class="fab fa-twitter"></i></a>
         </div>
-        <p>&copy; 2025</p>
+        <p>&copy;DevPortfolio 2025</p>
     </footer>
 </div>
 </body>
