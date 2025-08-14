@@ -1,6 +1,6 @@
 # DevPortfolio
 
-[![License](https://img.shields.io/github/license/bakadja/portfolio-codecademy)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A modern, responsive portfolio website built with HTML, CSS, and JavaScript. Showcase your projects, skills, and contact information in a clean and professional layout.
 
